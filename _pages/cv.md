@@ -11,23 +11,11 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-
-Work experience
-======
-* Summer 2015: Research Assistant
-  * Github University
-
-
-EDUCATION
-======
 Ph.D., Computer Science, University of Southern California, In Progress. Advisor: Dr. Maja Matarić
 
 B.S., Engineering, Distinction, Harvey Mudd College, May 2018. Major Work: Shipwreck Mapping in Malta with Autonomous Underwater Vehicles (AUVs). Advisor: Dr. Christopher Clark
 
-PROJECTS
+Projects
 ======
 Models of Emotional Intelligence in Socially Assistive Robots, Los Angeles, CA.
 Advisor: Dr. M. Matarić. August 2018-present.
@@ -38,7 +26,7 @@ Advisor: Dr. C. Clark. September 2017-May 2018.
 Trajectory Tracking Controller for AUVs, Techmation Co, Ltd., Claremont, CA. 
 Advisor: Dr. A. Bright. January 2017-May 2018.
 
-PROFESSIONAL
+Professional
 ======
 Research Assistant, USC Interaction Lab, Los Angeles, CA. 
 Advisor: Dr. M. Matarić. August 2018-present.
@@ -52,7 +40,7 @@ Supervisors: S. Tolliver and W. Johnson. June-August 2017.
 Research Assistant, Lab for Autonomous and Intelligent Robotics, Claremont, CA. 
 Advisor: Dr. C. Clark. May 2016-July 2016.
 
-HONORS AND AWARDS
+Honors and Awards
 ======
 National Science Foundation Graduate Research Fellowship: 2018-present
 
@@ -68,7 +56,7 @@ Los Angeles Philanthropic Foundation Scholarship: 2015-2018
 
 Harvey S. Mudd Scholarship: 2014-2018
 
-PUBLICATIONS
+Publications
 ======
 3. Lupanow, Jessica and Remer, Donald, "A Comparison of Expressed and Desired Leadership Styles in an Experiential Undergraduate Engineering Clinic Program," Proceedings, *2018 American Society for Engineering Education (ASEE) Annual Conference & Exposition*, June 2018.
 
@@ -76,11 +64,11 @@ PUBLICATIONS
 
 1.  Seibert von Fock, Sebastian M. T., Bilich, Sara, Davis, Katie, Viswanthan, Vaibhav K., Lobo, Zayra, Lupanow, Jessica, Clark, Christopher, Gambin, Timmy, and Wood, Zoë, “Pipeline for Reconstruction and Visualization of Underwater Marine Archaeology Sites using Photogrammetry,” *International Conference on Computers and Their Applications (CATA 2017)*, Mar 2017.
 
-SOCIETY MEMBERSHIPS
+Society Memberships
 ======
 Member, Society of Women Engineers (SWE)
 
-PERSONAL
+Personal
 ======
 Citizenship: US
 Gender: Female
