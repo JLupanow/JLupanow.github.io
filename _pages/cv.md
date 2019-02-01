@@ -58,11 +58,11 @@ Harvey S. Mudd Scholarship: 2014-2018
 
 Publications
 ======
-3. **Lupanow, Jessica** and Remer, Donald, "A Comparison of Expressed and Desired Leadership Styles in an Experiential Undergraduate Engineering Clinic Program," Proceedings, *2018 American Society for Engineering Education (ASEE) Annual Conference & Exposition*, June 2018.
+**Lupanow, Jessica** and Remer, Donald, "A Comparison of Expressed and Desired Leadership Styles in an Experiential Undergraduate Engineering Clinic Program," Proceedings, *2018 American Society for Engineering Education (ASEE) Annual Conference & Exposition*, June 2018.
 
-2. Viswanathan, Vaibhav K., Lobo, Zayra, **Lupanow, Jessica**, Seibert von Fock, Sebastian, Wood, Zoë, Gambin, Timmy, and Clark, Christopher, "AUV Motion-Planning for Photogrammetric Reconstruction of Marine Archaeological Sites," Proceedings, *IEEE International Conference on Robotics and Automation (ICRA 2017)*, June 2017.
+Viswanathan, Vaibhav K., Lobo, Zayra, **Lupanow, Jessica**, Seibert von Fock, Sebastian, Wood, Zoë, Gambin, Timmy, and Clark, Christopher, "AUV Motion-Planning for Photogrammetric Reconstruction of Marine Archaeological Sites," Proceedings, *IEEE International Conference on Robotics and Automation (ICRA 2017)*, June 2017.
 
-1.  Seibert von Fock, Sebastian M. T., Bilich, Sara, Davis, Katie, Viswanthan, Vaibhav K., Lobo, Zayra, **Lupanow, Jessica**, Clark, Christopher, Gambin, Timmy, and Wood, Zoë, “Pipeline for Reconstruction and Visualization of Underwater Marine Archaeology Sites using Photogrammetry,” *International Conference on Computers and Their Applications (CATA 2017)*, Mar 2017.
+Seibert von Fock, Sebastian M. T., Bilich, Sara, Davis, Katie, Viswanthan, Vaibhav K., Lobo, Zayra, **Lupanow, Jessica**, Clark, Christopher, Gambin, Timmy, and Wood, Zoë, “Pipeline for Reconstruction and Visualization of Underwater Marine Archaeology Sites using Photogrammetry,” *International Conference on Computers and Their Applications (CATA 2017)*, Mar 2017.
 
 Society Memberships
 ======
@@ -71,6 +71,8 @@ Member, Society of Women Engineers (SWE)
 Personal
 ======
 Citizenship: US
+
 Gender: Female
+
 Security Clearance: Secret 2017-2027
 
