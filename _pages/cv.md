@@ -11,33 +11,33 @@ redirect_from:
 
 Education
 ======
-Ph.D., Computer Science, University of Southern California, In Progress. Advisor: Dr. Maja Matarić
+**Ph.D., Computer Science, University of Southern California, In Progress.** Advisor: Dr. Maja Matarić
 
-B.S., Engineering, Distinction, Harvey Mudd College, May 2018. Major Work: Shipwreck Mapping in Malta with Autonomous Underwater Vehicles (AUVs). Advisor: Dr. Christopher Clark
+**B.S., Engineering, Distinction, Harvey Mudd College, May 2018.** Major Work: *Shipwreck Mapping in Malta with Autonomous Underwater Vehicles (AUVs)*. Advisor: Dr. Christopher Clark
 
 Projects
 ======
-Models of Emotional Intelligence in Socially Assistive Robots, Los Angeles, CA.
+**Models of Emotional Intelligence in Socially Assistive Robots,** Los Angeles, CA.
 Advisor: Dr. M. Matarić. August 2018-present.
 
-Autonomous Machine Function, Doosan Bobcat, Claremont, CA. 
+**Autonomous Machine Function, Doosan Bobcat,** Claremont, CA. 
 Advisor: Dr. C. Clark. September 2017-May 2018.
 
-Trajectory Tracking Controller for AUVs, Techmation Co, Ltd., Claremont, CA. 
+**Trajectory Tracking Controller for AUVs, Techmation Co, Ltd.,** Claremont, CA. 
 Advisor: Dr. A. Bright. January 2017-May 2018.
 
 Professional
 ======
-Research Assistant, USC Interaction Lab, Los Angeles, CA. 
+**Research Assistant, USC Interaction Lab,** Los Angeles, CA. 
 Advisor: Dr. M. Matarić. August 2018-present.
 
-Intern, Booz Allen Hamilton, El Segundo, CA. 
+**Intern, Booz Allen Hamilton,** El Segundo, CA. 
 Supervisor: S. Oswald. June 2018-August 2018.
 
-Intern, Northrop Grumman and Remotec, Huntsville, CA and Clinton, TN. 
+**Intern, Northrop Grumman and Remotec,** Huntsville, CA and Clinton, TN. 
 Supervisors: S. Tolliver and W. Johnson. June-August 2017.
 
-Research Assistant, Lab for Autonomous and Intelligent Robotics, Claremont, CA. 
+**Research Assistant, Lab for Autonomous and Intelligent Robotics,** Claremont, CA. 
 Advisor: Dr. C. Clark. May 2016-July 2016.
 
 Honors and Awards
@@ -58,11 +58,11 @@ Harvey S. Mudd Scholarship: 2014-2018
 
 Publications
 ======
-3. Lupanow, Jessica and Remer, Donald, "A Comparison of Expressed and Desired Leadership Styles in an Experiential Undergraduate Engineering Clinic Program," Proceedings, *2018 American Society for Engineering Education (ASEE) Annual Conference & Exposition*, June 2018.
+3. **Lupanow, Jessica** and Remer, Donald, "A Comparison of Expressed and Desired Leadership Styles in an Experiential Undergraduate Engineering Clinic Program," Proceedings, *2018 American Society for Engineering Education (ASEE) Annual Conference & Exposition*, June 2018.
 
-2. Viswanathan, Vaibhav K., Lobo, Zayra, Lupanow, Jessica, Seibert von Fock, Sebastian, Wood, Zoë, Gambin, Timmy, and Clark, Christopher, "AUV Motion-Planning for Photogrammetric Reconstruction of Marine Archaeological Sites," Proceedings, *IEEE International Conference on Robotics and Automation (ICRA 2017)*, June 2017.
+2. Viswanathan, Vaibhav K., Lobo, Zayra, **Lupanow, Jessica**, Seibert von Fock, Sebastian, Wood, Zoë, Gambin, Timmy, and Clark, Christopher, "AUV Motion-Planning for Photogrammetric Reconstruction of Marine Archaeological Sites," Proceedings, *IEEE International Conference on Robotics and Automation (ICRA 2017)*, June 2017.
 
-1.  Seibert von Fock, Sebastian M. T., Bilich, Sara, Davis, Katie, Viswanthan, Vaibhav K., Lobo, Zayra, Lupanow, Jessica, Clark, Christopher, Gambin, Timmy, and Wood, Zoë, “Pipeline for Reconstruction and Visualization of Underwater Marine Archaeology Sites using Photogrammetry,” *International Conference on Computers and Their Applications (CATA 2017)*, Mar 2017.
+1.  Seibert von Fock, Sebastian M. T., Bilich, Sara, Davis, Katie, Viswanthan, Vaibhav K., Lobo, Zayra, **Lupanow, Jessica**, Clark, Christopher, Gambin, Timmy, and Wood, Zoë, “Pipeline for Reconstruction and Visualization of Underwater Marine Archaeology Sites using Photogrammetry,” *International Conference on Computers and Their Applications (CATA 2017)*, Mar 2017.
 
 Society Memberships
 ======
