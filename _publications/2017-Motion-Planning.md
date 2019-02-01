@@ -10,4 +10,4 @@ This paper is about using AUVs to generate path plans to collect video for photo
 
 [Download paper here](http://JLupanow.github.io/files/Motion-Planning-Paper.pdf)
 
-Recommended citation: V. K. Viswanathan et al., "AUV motion-planning for photogrammetric reconstruction of marine archaeological sites," 2017 IEEE International Conference on Robotics and Automation (ICRA), Singapore, 2017, pp. 5096-5103.
+Recommended citation: V. K. Viswanathan et al., "AUV motion-planning for photogrammetric reconstruction of marine archaeological sites," *2017 IEEE International Conference on Robotics and Automation (ICRA)*, Singapore, 2017, pp. 5096-5103.
