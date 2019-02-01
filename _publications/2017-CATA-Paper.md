@@ -10,4 +10,4 @@ This paper presents a complete pipeline to create accurate 3D reconstructions of
 
 [Download paper here](http://JLupanow.github.io/files/CATA-Paper.pdf)
 
-Recommended citation: S. von Fock, et al., "Pipeline for Reconstruction and Visualization of Underwater Marine Archaeology Sites using Photogrammetry," *International Conference on Computers and Their Applications (CATA)*, Mar 2017.
+Recommended citation: S. Seibert von Fock, et al., "Pipeline for Reconstruction and Visualization of Underwater Marine Archaeology Sites using Photogrammetry," *International Conference on Computers and Their Applications (CATA)*, Mar 2017.
