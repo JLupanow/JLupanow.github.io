@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "About Me"
+title: "I want to be an active partner in creating a culture of human-centered innovation."
 excerpt: "About me"
 author_profile: true
 redirect_from: 
