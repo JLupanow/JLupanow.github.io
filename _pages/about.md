@@ -1,7 +1,7 @@
 ---
 permalink: /
-title: "An active partner in creating a culture of human-centered innovation"
-excerpt: "An active partner in creating a culture of human-centered innovation"
+title: "Creating a culture of human-centered innovation"
+excerpt: "Creating a culture of human-centered innovation"
 author_profile: true
 redirect_from: 
   - /about/
