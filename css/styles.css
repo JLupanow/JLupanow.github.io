@@ -22,6 +22,10 @@ body.active {
 	z-index: -1
 }
 
+#c-submit-button {
+    margin: auto; !important;
+}
+
 .no-js #experience-timeline>div {
 	background: #fff;
 	padding: 10px;
