@@ -22,10 +22,6 @@ body.active {
 	z-index: -1
 }
 
-#c-submit-button {
-    margin: auto; !important;
-}
-
 .no-js #experience-timeline>div {
 	background: #fff;
 	padding: 10px;
@@ -211,7 +207,7 @@ footer {
 .social a {
 	display: block;
 	color: #74808a;
-	padding: 10px
+	padding: 15px
 }
 
 .social a:hover {
@@ -623,7 +619,7 @@ footer {
 }
 
 #contact-form {
-	max-width: 500px;
+	max-width: 500px !important;
 	margin: 0 auto
 }
 
@@ -674,11 +670,14 @@ footer {
 }
 
 #contact-form button {
+	/*margin: auto;
+	text-align: center;
+	margin: 0 auto;*/
 	display: block;
 	width: 100%;
 	background: #fff;
 	border-radius: 4px;
-	padding: 5px 10px;
+	padding: 10px 230px;
 	border: none;
 	color: #3498db;
 	font-weight: 700;
