@@ -669,15 +669,18 @@ footer {
 	resize: none
 }
 
-#contact-form button {
-	/*margin: auto;
-	text-align: center;
-	margin: 0 auto;*/
-	display: block;
+.cognito .c-action{
+    float:none !important;
+}
+.c-action #c-submit-button, .c-action{
+    display:block !important;
+    margin:0 auto !important;
+}
+
+#c-submit-button {
 	width: 100%;
 	background: #fff;
-	border-radius: 4px;
-	padding: 10px 230px;
+	padding: 10px !important;
 	border: none;
 	color: #3498db;
 	font-weight: 700;
