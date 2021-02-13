@@ -1,0 +1,167 @@
+// - - - - - - - - - - - - - - - - - -
+
+// Single project
+
+// - - - - - - - - - - - - - - - - - -
+
+.page-project {
+  @extend .page-post;
+
+  scroll-margin-top: 100px;
+
+  .post__subtitle {
+    margin-bottom: 35px;
+    max-width: 100%;
+  }
+
+  .last-subtitle {
+    /*margin-bottom: 43px;*/
+  }
+
+  .project__link {
+    text-decoration: none !important;
+  }
+
+  li li{
+      list-style-type: lower-alpha;
+  }
+
+  li li li{
+      list-style-type: lower-roman;
+  }
+
+
+  /*Make about link jump to 100px above start of section so its not covered by navbar*/
+  a.top-link::before { 
+    display: block; 
+    content: " "; 
+    margin-top: -1000px; 
+    height: 1000px; 
+    visibility: hidden; 
+    pointer-events: none;
+  }
+
+  a.navbar-link::before { 
+    display: block; 
+    content: " "; 
+    margin-top: -100px; 
+    height: 100px; 
+    visibility: hidden; 
+    pointer-events: none;
+  }
+
+/*  a.details {
+    color: $accent-color;
+  }*/
+
+  /* Style the collapsible content. */
+/*  .content {
+    width: 100%;
+    display: block;
+    background-color: $background-alt-color;
+    transition: max-height 0.2s ease-out;
+    font-size: inherit;
+    position: relative;
+    padding: 20px 0 0;
+    transition: max-height 0.2s ease-out;
+  }
+
+  .content::before {
+    content:"";
+    background-color: $background-alt-color;
+    position: absolute;
+    height: 100%;
+    width: 200vw;
+    left: -50vw;
+    z-index: -1;
+
+    display: block;
+    top: 0;
+    bottom: 0;
+  }*/
+  
+
+  .post__content {
+    hr {
+      background-color: var(--accent);
+    }
+
+    blockquote {
+      border-left-color: var(--accent);
+    }
+
+    table:not(.rouge-table) {
+      border: 2px solid var(--accent);
+
+      thead {
+        background: var(--accent);
+      }
+    }
+
+    a {
+      color: $text-dark-color;
+
+      &:hover {
+        color: $accent-color;
+      }
+    }
+
+    .gallery--carousel .owl-dot.active::after {
+      background: var(--accent);
+    }
+  }
+
+  @include mq(tabletp) {
+    .post__subtitle {
+      margin-bottom: 40px;
+    }
+  }
+}
+
+
+/*  
+.collapsible {
+    background-color: $text-medium-color;
+    color: white;
+    cursor: pointer;
+    padding: 15px auto;
+    width: 100vw;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: inherit;
+    position: relative;
+    margin-top: 40px;
+    transition: all 0.5s ease;
+  }
+
+  .collapsible::before {
+    content:"";
+    background-color: inherit;
+    position: absolute;
+    height: 100%;
+    width: 200%;
+    left: -50%;
+    top: 0px;
+    z-index: -1;
+  }
+
+  .active, .collapsible:hover {
+    background-color: $text-dark-color;
+  }
+
+  .collapsible:after {
+    content: '+';
+    font-size: 25px;
+    border: none;
+    color: white;
+    float: right;
+    margin-left: 5px;
+  }
+
+  .active:after {
+    content: "-";
+    border: none;
+    font-size: 25px;
+  }
+*/

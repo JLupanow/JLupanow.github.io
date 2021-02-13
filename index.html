@@ -1,315 +1,323 @@
-<!DOCTYPE html>
-<html class="no-js" lang="en">
+---
+layout: default
+title: Designer & Strategist
+description: I leverage my design, research, and strategy skills to craft elegant, data-driven digital products<!--  for teams tackling health and social challenges -->.
+featured_image: /images/social.jpg
+---
 
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Jessica Lupanow</title>
-	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-	<link rel="icon" href="favicon.ico" type="image/x-icon">
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
-    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="libs/academicons/css/academicons.min.css"/>
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/styles.css" rel="stylesheet">
-</head>
+<div class="page-home">
 
-<body>
-    <div id="mobile-menu-open" class="shadow-large">
-        <i class="fa fa-bars" aria-hidden="true"></i>
-    </div>
-    <!-- End #mobile-menu-toggle -->
-    <header class="sticky">
-        <div id="mobile-menu-close">
-            <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
-        </div>
-        <ul id="menu" class="shadow">
-            <li>
-                <a href="#about">About</a>
-            </li>
-            <li>
-                <a href="#experience">Experience</a>
-            </li>
-            <li>
-                <a href="#education">Education</a>
-            </li>
-            <!-- <li>
-                <a href="#projects">Projects</a>
-            </li>
-            <li>
-                <a href="#skills">Skills</a>
-            </li>-->
-            <li>
-                <a href="#contact">Contact</a>
-            </li>
-        </ul>
-        <!-- Create icon to scroll to top
-        <div class="sticky">
-            <span id="to-top">
-                <i class="fa fa-chevron-up" aria-hidden="true"></i>
-            </span>
-        </div>
-        -->
-    </header>
-    <!-- End header -->
 
-    <!-- Begin #lead -->
-    <div id="lead">
-        <div id="lead-content">
-            <h1>Jessica Lupanow</h1>
-            <h2>Engineer turned Designer</h2>
 
-            <p><a href="Jessica_Lupanow_resume.pdf" target="_blank" class="btn-rounded-white">View my Resume</a></p>
-            <p><a href="Jessica_Lupanow_Portfolio.pdf" target="_blank" class="btn-rounded-white">View my Portfolio</a></p>
-        </div>
-        <!-- End #lead-content -->
+	<!-- HERO SECTION -->
 
-        <div id="lead-overlay"></div>
+	{% if site.data.settings.hero_settings.background_image %}
+	<img src="{{ site.data.settings.hero_settings.background_image | relative_url }}" class="hero__background" draggable="false">
+	{% endif %}
 
-        
-        <!-- End #lead-down -->
-    </div>
-    <!-- End #lead -->
+	<section class="hero">
+		<a name="home"></a>
+		<div class="wrap grid">
+			<div class="title">
+				<div class="main__title">
+					<p>{{ page.title }}</p>
+				</div>
+				<p class="intro subtitle--light">
+					{{ page.description }}
+					<a href="#" class="hero__cta button--fill contact-trigger js-contact">Get In Touch</a>
+				</p>
+			</div>
+			<!-- <div class="hero__image floating-images">
+	            <ul class="floating-images__container">
+	                <li class="floating-image">
+	                    <div class="image img-container">
+	                        <img src="{{ '/images/hero-images/3.png' | relative_url }}" alt="">
+	                    </div>
+	                </li>
+	                <li class="floating-image">
+	                    <div class="image img-container">
+	                        <img src="{{ '/images/hero-images/10.png' | relative_url }}" alt="">
+	                    </div>
+	                </li>
+	                <li class="floating-image">
+	                    <div class="image img-container">
+	                        <img src="{{ '/images/hero-images/8.png' | relative_url }}" alt="">
+	                    </div>
+	                </li>
+	                <li class="floating-image">
+	                    <div class="image img-container">
+	                        <img src="{{ '/images/hero-images/12.png' | relative_url }}" alt="">
+	                    </div>
+	                </li>
+	                <li class="floating-image">
+	                    <div class="image img-container">
+	                        <img src="{{ '/images/hero-images/13.png' | relative_url }}" alt="">
+	                    </div>
+	                </li>
+	                <li class="floating-image">
+	                    <div class="image img-container">
+	                        <img src="{{ '/images/hero-images/4.png' | relative_url }}" alt="">
+	                    </div>
+	                </li>
+	                <li class="floating-image">
+	                    <div class="image img-container">
+	                        <img src="{{ '/images/hero-images/1.png' | relative_url }}" alt="">
+	                    </div>
+	                </li>
+	                <li class="floating-image">
+	                    <div class="image img-container">
+	                        <img src="{{ '/images/hero-images/6.png' | relative_url }}" alt="">
+	                    </div>
+	                </li>
+	                <li class="floating-image">
+	                    <div class="image img-container">
+	                        <img src="{{ '/images/hero-images/5.png' | relative_url }}" alt="">
+	                    </div>
+	                </li>
+	                <li class="floating-image">
+	                    <div class="image img-container">
+	                        <img src="{{ '/images/hero-images/2.png' | relative_url }}" alt="">
+	                    </div>
+	                </li>
+	                <li class="floating-image">
+	                    <div class="image img-container">
+	                        <img src="{{ '/images/hero-images/7.png' | relative_url }}" alt="">
+	                    </div>
+	                </li>
+	            </ul>
+	        </div> -->
+			<div class = "hero__image">
+				<img src="{{ '/images/hero-image-1.jpg' | relative_url }}" alt="">
+			</div>
+		</div>
 
-    <div id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <h2 class="heading">About Me</h2>
-                </div>
-                <div class="col-md-8">
-                    <p>
-                        I'm an engineer turned designer who is passionate about creating great user experiences and examining the relationship between users and technology. I rely on my background in engineering and computer science as much as I rely on my passion for art, design, and project management. I completed my B.S. in engineering at Harvey Mudd in 2018 and my M.S. in computer science at USC in May 2020. I am now looking for roles in User Experience (UX) or Product Design, either remote or in Orange County, CA.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- End #about -->
+	</section>
 
-    <div id="experience" class="background-alt">
-        <h2 class="heading">Experience</h2>
-        <div id="experience-timeline">
-            <div data-date="March 2020 – Present">
-                <h3>UX Designer</h3>
-                <h4>JLR Interactive</h4>
-                <p>
-                    I am creating UX artifacts and content for a new edition of the best-seller, <a href="https://www.amazon.com/UX-Strategy-Innovative-Digital-Products/dp/1449372864">UX Strategy: How to Devise Innovative Digital Products that People Want</a>, alongside author Jaime Levy.
-                </p>
-            </div>
 
-            <div data-date="September 2018 – May 2020">
-                <h3>Doctoral Human-Robot Interaction Researcher</h3>
-                <h4>The Interaction Lab at USC</h4>
-                <p>
-                    As a PhD student, I researched how empathy can be incorporated into human-robot interactions by learning about the developmental psychology of children with Autism Spectrum Disorder and leading a team of 5 undergraduate and high school students to design a socially assistive robotic empathy tutoring system supported by robust computational models. You can view more project details <a href="http://robotics.usc.edu/interaction/projects/desc2.php?name=empathy">here</a>. I was supported by a National Science Foundation Graduate Research Fellowship (NSF GRFP). I graduated with my M.S. in computer science in May 2020.
-                </p>
-            </div>
 
-            <div data-date="August 2019 – December 2019">
-                <h3>Web Designer and Developer</h3>
-                <h4>Sentry Mirror</h4>
-                <p>
-                    I modernized a company’s website through the creation of new media and a responsive site redesign while maintaining the desired information architecture. I designed and developed the new website with HTML, CSS, JavaScript, and PHP. The new website features an improved visual design consistent with the company’s new directions and objectives, responsive display, improved typography and media presentation, and integration with external media, such as Google maps.
-                </p>
-            	<p>
-            		You can see the outdated version of Sentry Mirror's website <a href="http://sentrymirror.com/">here</a> and my redesign, which is still under development, <a href="https://sentrymirror.azurewebsites.net/">here</a>.
-                </p>
-            </div>
+	<!-- PORTFOLIO SECTION -->
 
-            <div data-date="June 2018 – August 2018">
-                <h3>Summer Intern</h3>
-                <h4>Booz Allen Hamilton</h4>
-                <p>
-                    I created image processing algorithms to be run on FPGAs onboard drones while learning about the consulting process. I gave lightning talks and full presentations on my work to project stakeholders and executives at the company before traveling to Washington D.C. to present my work alongside four other interns to executives from company locations across the nation.
-                </p>
-            </div>
+	<section class="listing">
+		<div class="wrap">
+			<a name="portfolio"></a>
+			<p class="title">Portfolio</p>
+			<p class="subtitle subtitle--light">
+				Below is a selection of my recent work as well as some comments from prior clients, supervisors, and product end users.<!--  You can also <a href="#" onclick='window.open("{{ relative_url }}/Jessica_Lupanow_Portfolio.pdf/");return false;'>view my portfolio as a pdf </a>.-->
+      		</p>
+      		<br>
+      		<br>
 
-            <div data-date="September 2014 – May 2018">
-                <h3>Over-the-Phone Tutor, Grader, and Tour Guide</h3>
-                <h4>Harvey Mudd College</h4>
-                <p>
-                    During my undergraduate years, I had various jobs on campus. I worked at Homework Hotline for 4 years as an over-the-phone tutor for children in grades 4-12. I served as a mentor tutor, which entailed conducting training exercises, supervising other tutors, taking difficult calls, addressing technical difficulties, and publicizing the hotline at local schools. This position gave me the opportunity to develop my leadership and communication skills while influencing program strategy. I also worked as a grader for the engineering department, grading homework and lab assignments weekly for Numerical Methods in Engineering and Digital Electronics and Computer Engineering. When I wasn't working at Homework Hotline or as a grader, I was showing prospective students and their families around campus as a tour guide for 2.5 years.
-                </p>
-            </div>
+      		<div class="projects__list grid">
+				{% for project in site.projects reversed %}
+					{% if project.title != 'DEMO' %}
+						<!-- v Temporary until last case study done v -->
+						{% if project.title == 'Website Redesign for a Small Business' %}
+							<article class="project__card">
+							  <a href="https://www.behance.net/gallery/86205477/Mobile-Web-Design-Study-for-a-Small-Business" class="project__link">
+							    <div class=image__frame">
+							    	<div class="project__image"> 
+							    		<!--  style="background-image: url({{ '/images/projects/' | relative_url}}{{ project.featured_image }})" -->
+							    		<img src="{{ '/images/projects/' | relative_url}}{{ project.featured_image }}" alt="">
+							    	</div>
+							    </div>
+							    <h4 class="project__title">{{ project.title }}</h4>
+							    <p class="project__role">{{ project.subtitle }}</p>
+							    <p class="project__role"><b>Role:</b> {{ project.role }}</p>
+							  </a>
+							</article>
+						{% else %}
+							{% if project.title == 'Task Analysis App for Neurodiverse Users' %}
+								<article class="project__card">
+								  
+								    <div class=image__frame">
+								    	<div class="project__image"> 
+								    		<!--  style="background-image: url({{ '/images/projects/' | relative_url}}{{ project.featured_image }})" -->
+								    		<img src="{{ '/images/projects/' | relative_url}}promptly-soon.png" alt="">
+								    	</div>
+								    </div>
+								    <h4 class="project__title">{{ project.title }}</h4>
+								    <p class="project__role">{{ project.subtitle }}</p>
+								    <p class="project__role"><b>Role:</b> {{ project.role }}</p>
+								  
+								</article>
+							{% else %}
+								<article class="project__card">
+								  <a href="{{ project.url | relative_url }}" class="project__link">
+								    <div class=image__frame">
+								    	<div class="project__image"> 
+								    		<!--  style="background-image: url({{ '/images/projects/' | relative_url}}{{ project.featured_image }})" -->
+								    		<img src="{{ '/images/projects/' | relative_url}}{{ project.featured_image }}" alt="">
+								    	</div>
+								    </div>
+								    <h4 class="project__title">{{ project.title }}</h4>
+								    <p class="project__role">{{ project.subtitle }}</p>
+								    <p class="project__role"><b>Role:</b> {{ project.role }}</p>
+								  </a>
+								</article>
+							{% endif %}
+						{% endif %}
+					{% endif %}
+				{% endfor %}
+			</div>
+		</div>
+	</section>
 
-            <div data-date="June 2017 – August 2017">
-                <h3>Technical Intern</h3>
-                <h4>Northrop Grumman and Northrop Grumman Remotec</h4>
-                <p>
-                    At Northrop Grumman in Huntsville, AL, I worked alongside executive stakeholders to design a dashboard solution to support some of their complex, reoccurring performance reporting needs. I learned about wireframing through this opportunity, using PowerPoint and Excel to walk stakeholders through the functionality of the dashboard during presentations. At Northrop Grumman Remotec in Clinton, TN, I conducted verification and testing as part of research and development of hazardous operations robots.
-                </p>
-            </div>
 
-            <div data-date="October 2015 – June 2017">
-                <h3>Research Assistant</h3>
-                <h4>Lab for Autonomous and Intelligent Robotics at HMC</h4>
-                <p>
-                    I worked in Dr. Christopher Clark’s Lab for Autonomous & Intelligent Robotics and was a Rose Hills Foundation fellow on the National Science Foundation-funded ICEX 2016 team. Using an OceanServer Iver 2 with VectorMap and Matlab, we collected video and sonar data of wrecks to be turned into 3D visualizations for archaeologists at the Univeristy of Malta. I developed image processing algorithms in MATLAB to autonomously detect wrecks in large sonar scans. This work led to two publications.
-                </p>
-            </div>
-        </div>
-    </div>
-    <!-- End #experience -->
 
-    <div id="education">
-        <h2 class="heading">Education</h2>
-        <div class="education-block">
-            <h3>University of Southern California</h3>
-            <span class="education-date">August 2018 – May 2020</span>
-            <h4>M.S. in Computer Science</h4>
-            <p>
-                I joined USC as a PhD student and NSF Graduate Research Fellow in the Computer Science department. I studied human-robot interaction and socially assistive robotics under Dr. Maja Matarić in the Interaction Lab. I explored how to build a socially assistive robotic empathy tutoring system to help children with Autism Spectrum Disorder (ASD) as part of the NSF Expeditions in Computing grant. Simultaneously, I pursued coursework in user experience design and strategy. I took a leave of absence from the PhD program after completing my M.S. degree in computer science in May 2020.
-            </p>
-        </div>
-        <!-- End .education-block -->
+	<!-- TESTIMONIALS SECTION -->
 
-        <div class="education-block">
-            <h3>Harvey Mudd College</h3>
-            <span class="education-date">September 2014 – May 2018</span>
-            <h4>B.S. in Engineering</h4>
-            <p>
-            	I completed my B.S. in Engineering at Harvey Mudd College where I worked under Dr. Christopher Clark in the Lab for Autonomous and Intelligent Robotics, conducting research on autonomous underwater vehicles (AUVs) and co-authoring two publications. I also researched student leadership styles with Dr. Donald Remer and published the results of that research. As part of my clinic capstone experience, I built and tested a new modular AUV for Techmation and automated a complex machine function for compact track loaders for Doosan Bobcat, for which I am listed as an inventor on two separate patent applications.
-            </p>
-        </div>
-        <!-- End .education-block -->
-    </div>
-    <!-- End #education -->
+	<section class="testimonials">
+		<div class="wrap">
+			<div class="row justify-content-center">
+				<div class="col-sm-12">
+					<div id="customers-testimonials" class="owl-carousel">
 
-    <!-- 
+					    <!--TESTIMONIAL 1 -->
+					    <div class="item">
+					      	<div class="shadow-effect">
+					        	<p>I was very impressed by Jessica's clear project plan & competitive analysis. I enjoyed seeing the new, more visually appealing product design.</p>
+					      	</div>
+					      	<div class="container">
+						      	<div class="testimonial-person">
+						      		<div class="testimonial-picture">
+						      			<img src="{{ '/images/testimonials/jeff-yue.jpg' | relative_url }}" alt="">
+						      		</div>
+						      		<h3 class="testimonial-name">
+						      			Jeff Yue
+						      			<span class="post">Client, Founder and CEO of BehaveWare</span>
+						      		</h3>
+						  		</div>
+						  	</div>
+		    			</div>
 
-    <div id="projects" class="background-alt">
-        <h2 class="heading">Projects</h2>
-        <div class="container">
-            <div class="row">
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/project.jpg" />
-                    </div>
+		    			<div class="item">
+					      	<div class="shadow-effect">
+					        	<p>This app is straightforward, streamlined, and very user friendly. The step-by-step walkthroughs and intuitive design help you get started making tasks right away.</p>
+					      	</div>
+					      	<div class="container">
+						      	<div class="testimonial-person">
+						      		<div class="testimonial-picture">
+						      			<img src="{{ '/images/testimonials/l-bullard.jpg' | relative_url }}" alt="">
+						      		</div>
+						      		<h1 class="testimonial-name">
+						      			L. Bullard
+						      			<span class="post">End User, Promptly by BehaveWare</span>
+						      		</h1>
+						  		</div>
+						  	</div>
+					    </div>
 
+					    <!--TESTIMONIAL 2 -->
+					    <div class="item">
+					      	<div class="shadow-effect">
+					        	<p>Jessica has a sharp mind, a dry wit, and insanely fast research skills.</p>
+					      	</div>
+					      	<div class="container">
+						      	<div class="testimonial-person">
+						      		<div class="testimonial-picture">
+						      			<img src="{{ '/images/testimonials/jaime-levy.jpg' | relative_url }}" alt="">
+						      		</div>
+						      		<h3 class="testimonial-name">
+						      			Jaime Levy
+						      			<span class="post">Supervisor, Jaime Levy Consulting</i></span>
+						      		</h3>
+						  		</div>
+						  	</div>
+					    </div>
+
+					    <!--TESTIMONIAL 3 -->
+					    <!-- <div class="item">
+					      	<div class="shadow-effect">
+					        	<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+					      	</div>
+					      	<div class="container">
+						      	<div class="testimonial-person">
+						      		<div class="testimonial-picture">
+						      			<img src="{{ '/images/joy-haag.jpg' | relative_url }}" alt="">
+						      		</div>
+						      		<h1 class="testimonial-name">
+						      			Joy Haag
+						      			<span class="post">Client, President of Sentry Mirror</span>
+						      		</h1>
+						  		</div>
+						  	</div>
+					    </div> -->
+
+					</div>
+				</div>
+			</div>
+	    </div>
+	</section>
+
+		
+
+
+	<!-- ABOUT SECTION -->
+	<div class="wrap">
+    	<hr style="background-color: $accent-color !important; margin: 80px 0 80px 0;">
+ 	</div>
 	
+	{% include section__about.html %}
 
-                    <!-- End .project-image -->
-    <!--                 <div class="project-info">
-                        <h3>Project Name Here</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-                        </p>
-                        <a href="#">View Project</a>
-                    </div>
-                    <!-- End .project-info -->
-    <!--             </div>
-                <!-- End .project -->
 
-   <!--              <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/project.jpg" />
-                    </div>
-                    <!-- End .project-image -->
-    <!--                 <div class="project-info">
-                        <h3>Project Name Here</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-                        </p>
-                        <a href="#">View Project</a>
-                    </div>
-                    <!-- End .project-info -->
-    <!--             </div>
-                <!-- End .project -->
-    <!--         </div>
-        </div>
-    </div>
-    <!-- End #projects -->
 
-    <!-- 
+	<!-- FULL WIDTH CAROUSEL DISPLAY -->
 
-    <div id="skills">
-        <h2 class="heading">Skills</h2>
-        <ul>
-            <li>JavaScript</li>
-            <li>Python</li>
-            <li>Ruby</li>
-            <li>Go</li>
-            <li>Node.js</li>
-            <li>AngularJs</li>
-            <li>React</li>
-            <li>Elixir</li>
-            <li>Java</li>
-            <li>C</li>
-            <li>C#</li>
-            <li>C++</li>
-            <li>Ruby on Rails</li>
-            <li>JavaScript</li>
-            <li>Python</li>
-            <li>Ruby</li>
-            <li>Go</li>
-            <li>Node.js</li>
-            <li>AngularJs</li>
-            <li>React</li>
-            <li>Elixir</li>
-            <li>Java</li>
-            <li>C</li>
-            <li>C#</li>
-            <li>C++</li>
-            <li>Ruby on Rails</li>
-        </ul>
-    </div>
-    <!-- End #skills -->
+	<!-- <section class="listing">
+		<div class="wrap">
+			<a class="navbar-link" name="portfolio"></a>
+			<p class="title">Portfolio</p>
+			<p class="subtitle subtitle--light">
+				Below is a selection of my recent work. You can also <a href="#" onclick='window.open("{{ relative_url }}/Jessica_Lupanow_Portfolio.pdf/");return false;'>view my portfolio as a pdf</a>. 
+      		</p>
+      		<br>
+      		<br>
 
-    <div id="contact">
-        <h2>Get in Touch</h2>
-        <div id="contact-form" class="cognito">
-		<script src="https://services.cognitoforms.com/s/GinEzCMd_kOVaShmHAJZsQ"></script>
-		<script>Cognito.load("forms", { id: "1" });</script>
-	</div>
-        <!--
-        <div id="contact-form">
-            <form method="POST" action="https://formspree.io/lupanow@usc.edu">
-                <input type="hidden" name="_subject" value="Contact request from personal website" />
-                <input type="email" name="_replyto" placeholder="Your email" required>
-                <textarea name="message" placeholder="Your message" required></textarea>
-                <button type="submit">Send</button>
-            </form>
-        </div>
-    -->
-        <!-- End #contact-form -->
-    </div>
-    <!-- End #contact -->
+			{% for project in site.projects reversed %}
 
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-5 copyright">
-                    <p>
-                        Copyright &copy; 2020 Jessica Lupanow
-                    </p>
-                </div>
-                <div class="col-sm-2 top">
-                    <span id="to-top">
-                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
-                    </span>
-                </div>
-                <div class="col-sm-5 social">
-                    <ul>
-                        <li>
-                            <a href="https://linkedin.com/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://scholar.google.com/citations?user=zB8e-mcAAAAJ&hl=en" target="_blank"><i class="fa fa-graduation-cap" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://orcid.org/0000-0001-6232-0294" target="_blank"><i class="ai ai-orcid" aria-hidden="true"></i></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <!-- End footer -->
+			{% if project.accent_color %}{% capture accent_color %}{{ project.accent_color }}{% endcapture %}{% endif %}
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="js/scripts.min.js"></script>
-</body>
+			<article class="project__preview">
+				<h3 class="project__title"><a href="{{ project.url | relative_url }}" style="--accent: {{ accent_color }}">{{ project.title }}</a></h3>
 
-</html>
+				<div class="project__images owl-carousel" style="--accent: {{ accent_color }}">
+					{% for image in project.gallery_images %}
+					<a href="{{ project.url | relative_url }}"><img src="{{ '/images/projects/' | relative_url}}{{ image }}" alt="" class="project__image"></a>
+					{% endfor %}
+				</div>
+
+				<div class="project__content grid" style="border-color: {{ accent_color }}">
+					<p class="project__subtitle subtitle--light">{{ project.subtitle }}</p>
+					<p class="project__description --small">
+						{{ project.description }}
+						<a href="{{ project.url | relative_url }}" class="project__link button--text --right"
+							style="color: {{ accent_color }}; --color-var: {{ accent_color }}">View Case Study</a>
+					</p>
+				</div>
+			</article>
+
+			{% endfor %}
+		</div>
+	</section> -->
+
+
+
+	<!-- RECENT POSTS/BLOG SECTION -->
+
+	<!-- <section class="recent-posts">
+		<div class="wrap grid">
+			<header class="recent-posts__header">
+				<h4>Recent blog posts</h4>
+				<a href="{{ '/blog' | relative_url }}" class="action button--text--accent --right">All Posts</a>
+			</header>
+
+			<div class="recent-posts__list grid">
+				{% for post in site.posts limit: 3 %}
+				{% include component__post-preview.html %}
+				{% endfor %}
+			</div>
+
+			<a href="{{ '/blog' | relative_url }}" class="action-bottom button--text--accent --right">All Posts</a>
+		</div>
+	</section> -->
+</div>
