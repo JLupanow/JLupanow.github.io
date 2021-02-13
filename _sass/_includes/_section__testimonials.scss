@@ -16,8 +16,8 @@
     padding: 20px;
     border-radius: 4px;
     text-align: center !important;
-    border:1px solid #ECECEC;
-    box-shadow: 0 19px 38px rgba(0,0,0,0.10), 0 15px 12px rgba(0,0,0,0.02);
+    border:1px solid #AEB3BB;
+    /*box-shadow: 0 19px 38px rgba(0,0,0,0.10), 0 15px 12px rgba(0,0,0,0.02);*/
     display: flex;
     vertical-align: middle;
     align-items: center;
@@ -27,6 +27,8 @@
     height: 250px; /* HEIGHT OF TESTIMONIAL FOR MOBILE VIEW */
 
     @include mq(tabletp) {
+      border:1px solid #ECECEC;
+      box-shadow: 0 19px 38px rgba(0,0,0,0.10), 0 15px 12px rgba(0,0,0,0.02);
       height: 175px; /* HEIGHT OF TESTIMONIAL FOR TABLET & DESKTOP VIEW */
       width: auto;
       margin: 0 auto 0;
