@@ -129,14 +129,7 @@ I also showed those who clicked on either ad the exact same landing page.
 This was so I could evaluate the most important variable: the ad. 
 Because I was interested in people who would want to download and use the app, I looked at not only how many people clicked on the ad and the cost per click but also the conversion rate (the number of people who tried to download the app out of the total number of people who clicked on the ad).
 
-|                      | One-Off Experience Ad |     Commuting Ad      |
-|----------------------|-----------------------|-----------------------|
-| **People Reached**   |          1147         |          1401         |
-| **Link Clicks**      |           11          |           43          |
-| **Cost per Click**   |         $0.45         |         $0.12         |
-| **Total Views**      |           12          |           44          |
-| **Conversions**      |           3           |           13          |
-| **Conversion Rate**  |           25%         |           30%         |
+![](/images/projects/vola/table.jpg)
 
 <div class="caption"><i>Advertising results showing the commuting ad resulting in higher conversion rates and lower cost per click.</i></div>
 
