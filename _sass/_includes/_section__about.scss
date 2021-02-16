@@ -26,7 +26,7 @@
     color: $accent-color;
   }*/
   color: inherit;
-  font-weight: $bold-weight;
+  font-weight: $regular-weight;
   text-decoration: underline;
   text-decoration-thickness: 2px;
   text-decoration-color: transparentize($color: $accent-color, $amount: 0.8);
