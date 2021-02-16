@@ -449,6 +449,7 @@
 		// Validate email
 		if (emailField.val() === '') {
 			emailField.closest('.contact-form__item').addClass('contact-form__item--error');
+			//alert("Please check the recaptcha");
 		}
 
 		// Validate name
@@ -457,12 +458,13 @@
 		}
 
 		// Validate message
-		if (messageField.val() === '') {
+		if (messageField.val() == '') {
 			messageField.closest('.contact-form__item').addClass('contact-form__item--error');
 		}
 
+
 		// If all fields are filled, except gotcha
-		if (emailField.val() !== '' && nameField.val() !== '' && messageField.val() !== '' && gotchaField.val().length === 0) {
+		if (emailField.val() !== '' && nameField.val() !== '' && messageField.val() != '' && gotchaField.val().length === 0) {
 
 			// Submit the form!
 		}

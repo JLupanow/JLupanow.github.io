@@ -63,3 +63,15 @@
     margin-bottom: 12px;
   }
 }
+
+#contact-submit {
+  &:disabled {
+    background-color: $border-color;
+    cursor: default;
+  
+    &:hover {
+      transform: none;
+    }
+
+  }
+}

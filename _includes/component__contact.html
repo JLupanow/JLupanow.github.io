@@ -10,7 +10,13 @@
         </p>
       </header>
 
-      <form method="POST" action="{{ site.data.settings.contact_settings.form_action }}" class="contact__form">
+      <script type="text/javascript">
+        var enableBtn = function(){
+          document.getElementById("contact-submit").disabled = false;
+        }
+      </script>
+
+      <form method="POST" action="{{ site.data.settings.contact_settings.form_action }}" class="contact__form" name="contact-form" id="contact-form">
         <div class="input-group">
           <label for="name">Your Name</label>
           <input type="text" name="name" id="name" placeholder="What should I call you?" required/>
@@ -23,18 +29,18 @@
 
         <div class="input-group">
           <label for="message">Your Message</label>
-          <textarea name="message" id="message" placeholder="What’s on your mind?" rows="3"></textarea>
+          <textarea name="message" id="message" placeholder="What’s on your mind?" rows="3" required></textarea>
         </div>
 
         <input type="hidden" name="_next" value="{{ site.data.settings.contact_settings.confirmation_url }}" />
         <input type="hidden" name="_subject" value="{{ site.data.settings.contact_settings.email_subject }}" />
         <input type="text" name="_gotcha" style="display: none;" class="contact-form__gotcha" val="">
 
-        <div class="g-recaptcha" data-sitekey="6Ldt7VoaAAAAACuEeHLXhjr2d7qHNnaI6D3u-new"></div>
+        <div class="g-recaptcha" name="_recaptcha" data-sitekey="6Ldt7VoaAAAAACuEeHLXhjr2d7qHNnaI6D3u-new" data-callback="enableBtn"></div>
         <br/>
 
         <div class="input-submit">
-          <input type="submit" class="button--fill" value="{{ site.data.settings.contact_settings.send_button_text }}">
+          <input type="submit" class="button--fill" value="{{ site.data.settings.contact_settings.send_button_text }}" id="contact-submit" disabled>
         </div>
       </form>
     </div>
