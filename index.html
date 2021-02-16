@@ -126,35 +126,19 @@ featured_image: /images/social.jpg
 							  </a>
 							</article>
 						{% else %}
-							{% if project.title == 'Task Analysis App for Neurodiverse Users' %}
-								<article class="project__card">
-								  
-								    <div class=image__frame">
-								    	<div class="project__image"> 
-								    		<!--  style="background-image: url({{ '/images/projects/' | relative_url}}{{ project.featured_image }})" -->
-								    		<img src="{{ '/images/projects/' | relative_url}}promptly-soon.png" alt="">
-								    	</div>
-								    </div>
-								    <h4 class="project__title">{{ project.title }}</h4>
-								    <p class="project__role">{{ project.subtitle }}</p>
-								    <p class="project__role"><b>Role:</b> {{ project.role }}</p>
-								  
-								</article>
-							{% else %}
-								<article class="project__card">
-								  <a href="{{ project.url | relative_url }}" class="project__link">
-								    <div class=image__frame">
-								    	<div class="project__image"> 
-								    		<!--  style="background-image: url({{ '/images/projects/' | relative_url}}{{ project.featured_image }})" -->
-								    		<img src="{{ '/images/projects/' | relative_url}}{{ project.featured_image }}" alt="">
-								    	</div>
-								    </div>
-								    <h4 class="project__title">{{ project.title }}</h4>
-								    <p class="project__role">{{ project.subtitle }}</p>
-								    <p class="project__role"><b>Role:</b> {{ project.role }}</p>
-								  </a>
-								</article>
-							{% endif %}
+							<article class="project__card">
+							  <a href="{{ project.url | relative_url }}" class="project__link">
+							    <div class=image__frame">
+							    	<div class="project__image"> 
+							    		<!--  style="background-image: url({{ '/images/projects/' | relative_url}}{{ project.featured_image }})" -->
+							    		<img src="{{ '/images/projects/' | relative_url}}{{ project.featured_image }}" alt="">
+							    	</div>
+							    </div>
+							    <h4 class="project__title">{{ project.title }}</h4>
+							    <p class="project__role">{{ project.subtitle }}</p>
+							    <p class="project__role"><b>Role:</b> {{ project.role }}</p>
+							  </a>
+							</article>
 						{% endif %}
 					{% endif %}
 				{% endfor %}
