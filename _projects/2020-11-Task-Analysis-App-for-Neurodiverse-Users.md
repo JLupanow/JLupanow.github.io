@@ -12,7 +12,7 @@ gallery_images:
 
 ---
 
-## The Challenge
+## The Challenge {#challenge}
 
 In the field of applied behavior analysis, there are two concepts that are often used: task analysis[^1] and visual scheduling.[^2] 
 Currently, there are apps that do one or the other, but there is no app that does both. 
@@ -30,7 +30,7 @@ Because BehaveWare LLC wanted to get this app out as soon as possible, I **neede
 [^1]: Pratt, Cathy, "[Applied Behavior Analysis: The Role of Task Analysis and Chaining](https://www.iidc.indiana.edu/irca/articles/applied-behavior-analysis.html)," *Indiana Resource Center for Autism*, 2020.
 [^2]: ABA Programs Guide Staff, "[What is Visual Scheduling?](https://www.appliedbehavioranalysisprograms.com/faq/what-is-visual-scheduling/)," *Applied Behavior Analysis Programs*, May 2020.
 
-## The Process
+## The Process {#process}
 
 1. [Analyze the competition](#competitors)
 2. [Define the use cases and establish a sitemap](#cases)

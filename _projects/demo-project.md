@@ -13,7 +13,7 @@ gallery_images:
   - demo.jpg
 ---
 
-## The Challenge
+## The Challenge {#challenge}
 
 Why did this project need to happen? 
 What was the goal and why? 
@@ -21,7 +21,7 @@ What specific problem, user needs, business requirements and/or pain points was 
 Who was the user/customer? What was my role? Who else worked on this? 
 Were there any unique or limiting factors like budget, time, time zones, etc.
 
-## The Process
+## The Process {#process}
 
 1. [Step 1: Present tense Verb+noun](#link1)
 2. [Step 2: Present tense Verb+noun](#link2)

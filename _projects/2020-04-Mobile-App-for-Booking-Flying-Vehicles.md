@@ -11,7 +11,7 @@ gallery_images:
   - vola-feat.png
 ---
 
-## The Challenge
+## The Challenge {#challenge}
 
 According to Porsche and Boeing, **commercial passenger drones will enter the market around 2025**.[^1] 
 Eccentric millionaires may be able to purchase these vehicles for private use, but how will the general public gain access? 
@@ -23,7 +23,7 @@ This project needed to be completed **within one semester** (i.e. 5 months) and 
 
 [^1]: Brown, Dalvin, "[Possibility or pipe dream: How close are we to seeing flying cars](https://www.usatoday.com/story/tech/2019/11/04/flying-cars-uber-boeing-and-others-say-theyre-almost-ready/4069983002/)," *USA Today*, 4 Nov 2019.
 
-## The Process
+## The Process {#process}
 
 1. [Get to know the customers](#customers)
 2. [Analyze the competition](#competition)

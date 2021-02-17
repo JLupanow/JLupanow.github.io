@@ -11,7 +11,7 @@ gallery_images:
   - petal-pushers-feat.png
 ---
 
-## The Challenge
+## The Challenge {#challenge}
 
 There is an ever-growing expectation for all businesses to support e-commerce.[^1] 
 People want to order a flower arrangement online from a local shop with the same ease they order ahead for a coffee or place an Amazon order.
@@ -36,7 +36,7 @@ This project needed to be completed within one semester (i.e. 5 months) and with
 
 <div class="caption"><i>The Petal Pushers site as of November 2019.</i></div>
 
-## The Process
+## The Process {#process}
 
 1. [Get to know the customers](#users)
 2. [Determine the use cases](#cases)
