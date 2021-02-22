@@ -181,7 +181,14 @@ font_settings:
 
 advanced_settings:
   ajax_loading: true
-  analytics_code: "G-BX548WXDQF"
+  analytics_code: "<script async src="https://www.googletagmanager.com/gtag/js?id=G-BX548WXDQF"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-BX548WXDQF');
+</script>"
   custom_styles: ""
   header_js: ""    
   footer_js: ""
