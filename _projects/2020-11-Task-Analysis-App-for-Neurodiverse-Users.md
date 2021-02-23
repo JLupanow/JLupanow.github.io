@@ -53,7 +53,7 @@ Imagine being an exhausted parent trying to set up a calendar for your child at 
 Or being a busy neurodiverse adult having to figure out how to input all of the steps of your morning routine.
 
 To get users to switch from other apps, Promptly would have to have a locking feature for caregivers to use, an upload feature for adding custom media to tasks, and support for multiple user profiles/calendars.
-I felt that **where Promptly could really shine was in a user-friendly hierachical app structure**: being able to drill down from your calendar to a task to a single step within that task with ease.
+I felt that **where Promptly could really shine was in a user-friendly hierarchical app structure**: being able to drill down from your calendar to a task to a single step within that task with ease.
 I also determined from download numbers and customer reviews that customers were responding best to a paid app pricing model.
 
 Agreeing on the standard and unique features Promptly would have, the team set out to clarify what screens we would need to bring these features to life and how users would move from screen to screen to accomplish their goals.
