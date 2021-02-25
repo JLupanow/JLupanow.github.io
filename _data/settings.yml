@@ -11,7 +11,7 @@ menu_settings:
     - title: 'Portfolio'
       url: '/#portfolio'
     - title: 'Resume'
-      url: '/Jessica_Lupanow_Resume.pdf/'
+      url: '/Jessica_Lupanow_Resume.pdf'
     - title: 'About'
       url: '/#about'
 
