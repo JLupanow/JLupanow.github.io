@@ -209,6 +209,15 @@ a {
   text-decoration-color: transparentize($color: $accent-color, $amount: 0.8);*/
 }
 
+.plain__link {
+  color: inherit;
+  font-weight: $regular-weight !important;
+
+  &:hover {
+    color: $accent-color;
+  }
+}
+
 .label {
   font-family: $title-font;
   font-size: $label-size;
