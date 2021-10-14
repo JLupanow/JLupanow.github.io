@@ -53,6 +53,10 @@
 	.title .subtitle {
 		margin-bottom: 60px;
 		max-width: 450px;
+
+        @include mq(tabletp) {
+          margin-bottom: 0px;
+        }
 	}
 
 	.intro {
@@ -68,7 +72,7 @@
 
 	@include mq(tabletp) {
 		height: 90vh;
-		min-height: 600px;
+		/*min-height: 600px;*/
 		margin-bottom: 40px;  /* gap between hero and portfolio in tablet view */
 		margin-top: -60px;
 
@@ -94,7 +98,7 @@
 
     @include mq(laptop) {
     	height: 90vh;
-    	min-height: 600px;
+    	/*min-height: 600px;*/
     	margin-top: -75px;
     	padding: 0 0 0;
 
@@ -103,6 +107,7 @@
 		}
 		.intro {
 			max-width: 458px;
+            margin-bottom: 0px !important;
 		}
 		margin-bottom: 80px;  /* gap between hero and portfolio in laptop view */
 		
@@ -134,8 +139,8 @@
 	display: flex;
 	align-items: center;
 	height: auto;
-	margin-bottom: 0px;
-	margin-top: 0px;
+	/*margin-bottom: 0px;
+	margin-top: 0px;*/
 	align-self: center;
 	max-width: 100%;
 	/*min-width: 350px;*/
