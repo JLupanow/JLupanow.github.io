@@ -24,7 +24,7 @@
     justify-content: center;
     width: 100%;
     margin: 0 0 0;
-    height: 250px; /* HEIGHT OF TESTIMONIAL FOR MOBILE VIEW */
+    height: 350px; /* HEIGHT OF TESTIMONIAL FOR MOBILE VIEW */
 
     @include mq(tabletp) {
       border:1px solid #ECECEC;
@@ -167,7 +167,7 @@
   }
   #customers-testimonials .item {
     text-align: center !important;
-    height: 370px; /* HEIGHT OF TESTIMONIAL+NAME FOR MOBILE VIEW */
+    height: 460px; /* HEIGHT OF TESTIMONIAL+NAME FOR MOBILE VIEW */
     padding: 0 0 0;
     margin-bottom: 0px;
     opacity: .2;
@@ -178,7 +178,7 @@
     transition: all 0.3s ease-in-out;
 
     @include mq(tabletp) {
-      height: 255px; /* HEIGHT OF TESTIMONIAL+NAME FOR TABLET & DESKTOP VIEW */
+      height: 235px; /* HEIGHT OF TESTIMONIAL+NAME FOR TABLET & DESKTOP VIEW */
       padding: 0 50px 0;
     }
 
