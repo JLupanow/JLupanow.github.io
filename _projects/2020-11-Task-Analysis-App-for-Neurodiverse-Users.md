@@ -1,7 +1,7 @@
 ---
 title: Task Analysis App for Neurodiverse Users
-subtitle: Working with the founders of BehaveWare LLC, we designed a task analysis and scheduling app that addresses the needs of neurodiverse individuals and their caregivers.
-role: This was work for a client. I contributed the competitive analysis, use cases, sitemap, low-fidelity wireframes, and high-fidelity mockups.
+subtitle: Working with the founders of BehaveWare LLC, we created a task analysis and scheduling app that addresses the needs of neurodiverse individuals and their caregivers.
+role: This was freelance work for a client. I contributed the competitive analysis, use cases, low-fidelity wireframes, and high-fidelity mockups.
 timeline: October through December 2020
 date: 2020-11-24 00:00:00
 description: Neurodiverse users have to juggle multiple childish apps to help with scheduling and task analysis. I worked with <a href="https://www.behaveware.org/">BehaveWare LLC</a> to explore how their app, Promptly, could simplify daily life for these users. I got the lay of the land by <a href="#competitors">analyzing a variety of competing apps</a>. Then I worked with the team to <a href="#cases">define the main use cases and necessary screens</a>. Finally I <a href="#mockups">designed high-fidelity mockups of each screen</a>. The client implemented these designs in their app, and <a href="#outcome">the app is now available</a> for download in the App Store and Google Play Store.
