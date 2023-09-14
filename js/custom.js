@@ -76,7 +76,36 @@
       document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
     }
 
-    $(document).ready(function(){
+    
+    
+    /*document.getElementById('encrypt_form').addEventListener('submit',checkPassword);
+
+    //Password checker for encrypted posts
+    function checkPassword() {
+        console.log('you made it to the password checker!');
+        var passphrase = document.getElementById('encrypt_password').value,
+            encryptedMsg = '{{ page.encrypted }}',
+            encryptedHMAC = encryptedMsg.substring(0, 64),
+            encryptedHTML = encryptedMsg.substring(64),
+            decryptedHMAC = CryptoJS.HmacSHA256(encryptedHTML, CryptoJS.SHA256(passphrase).toString()).toString();
+
+        console.log(passphrase);
+
+        if (decryptedHMAC !== encryptedHMAC) {
+          alert('The password you entered is incorrect. Please try again or contact Jessica for the current password.');
+          return;
+        }
+
+        var plainHTML = CryptoJS.AES.decrypt(encryptedHTML, passphrase).toString(CryptoJS.enc.Utf8);
+
+        console.log(plainHTML);
+
+        document.getElementById('encrypted_content').innerHTML = plainHTML;
+    }*/
+
+
+    $(document).ready(
+        function(){
         
         //Check to see if the window is top if not then display button
         $(window).scroll(function(){
@@ -95,7 +124,8 @@
         //     return false;
         // });
         
-    });
+
+      });
 
     
 

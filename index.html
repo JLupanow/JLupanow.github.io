@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Product Designer & Strategist
-description: I leverage my design, research, and strategy skills to craft elegant, data-driven digital products that make people's lives easier<!--  for teams tackling health and social challenges -->.
+description: I specialize in design, strategy, and research for digital products, with the unique ability to bridge the gap between design and code, thanks to my engineering background. I'm passionate about crafting innovative solutions through user-centric design and feedback-driven prototyping.  <!--I leverage my design, research, and strategy skills to craft elegant, data-driven digital products that make people's lives easier  for teams tackling health and social challenges -->
 featured_image: /images/social.jpg
 ---
 
@@ -113,10 +113,10 @@ featured_image: /images/social.jpg
       		<div class="projects__list grid">
 				{% for project in site.projects reversed %}
 					{% if project.title != 'DEMO' %}
-						<!-- v Temporary until last case study done v -->
-						{% if project.title == 'behance project' %}
+						{% if project.layout == 'encrypted' %}
 							<article class="project__card">
-							  <a href="https://www.behance.net/gallery/86205477/Mobile-Web-Design-Study-for-a-Small-Business" class="project__link">
+								<a href="{{ project.url | relative_url }}" target="_self" class="project__link encrypted__link">
+								<!-- <a href="http://localhost:4000/project/2023-05-nextgen-array" target="_self" class="project__link"> -->
 							    <div class=image__frame">
 							    	<div class="project__image"> 
 							    		<!--  style="background-image: url({{ '/images/projects/' | relative_url}}{{ project.featured_image }})" -->
@@ -128,7 +128,8 @@ featured_image: /images/social.jpg
 							    <p class="project__role"><b>Role:</b> {{ project.role }}</p>
 							  </a>
 							</article>
-						{% else %}
+						{% endif %}
+						{% if project.layout != 'encrypted' %}
 							<article class="project__card">
 							  <a href="{{ project.url | relative_url }}" class="project__link">
 							    <div class=image__frame">

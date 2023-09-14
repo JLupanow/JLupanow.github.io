@@ -97,6 +97,13 @@
 				// Let JS handle it
 			}
 
+			// If this link is to an encrypted portfolio item
+			else if ($(this).is('.encrypted__link')) {
+
+				// Use the given link
+				window.location = thisTarget;
+			}
+
 			// If link is external
 			else if (thisTarget.indexOf('http') >= 0) {
 

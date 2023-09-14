@@ -23,27 +23,29 @@
 	<title>{{ site.data.settings.basic_settings.site_title }} – {{ page.title }}</title>
 	<meta name="description" content="{{ page.description | strip_html | xml_escape }}">
 
+	
+
 	<!-- Google Tag Manager -->
-	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	<!-- <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-	})(window,document,'script','dataLayer','GTM-TTM3VF4');</script>
+	})(window,document,'script','dataLayer','GTM-TTM3VF4');</script> -->
 	<!-- End Google Tag Manager -->
 
 	<!-- Twitter Card -->
-	<meta name="twitter:card" content="summary_large_image">
+	<!-- <meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:title"
 		content="{{ site.data.settings.basic_settings.site_title }} – {{ page.title }}">
 	<meta name="twitter:description" content="{{ page.description | strip_html | xml_escape }}">
-	<meta name="twitter:image:src" content="{{ page.featured_image | absolute_url }}">
+	<meta name="twitter:image:src" content="{{ page.featured_image | absolute_url }}"> -->
 
 	<!-- Facebook OpenGraph -->
-	<meta property="og:title"
+	<!-- <meta property="og:title"
 		content="{{ site.data.settings.basic_settings.site_title }} – {{ page.title }}" />
 	<meta property="og:description" content="{{ page.description | strip_html | xml_escape }}" />
 	<meta property="og:image" content="{{ page.featured_image | absolute_url }}" />
-
+ -->
 	{% if site.data.settings.font_settings.font_embed %}
 	<!-- Font Embed Code -->
 	{{ site.data.settings.font_settings.font_embed }}
@@ -62,7 +64,7 @@
 		crossorigin="anonymous"></script>
 
 	<!-- reCAPTCHA -->
-	<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+	<!-- <script src="https://www.google.com/recaptcha/api.js" async defer></script> -->
 
 	{% if site.data.settings.advanced_settings.custom_styles %}
 	<!-- Custom Styles -->
@@ -139,6 +141,7 @@
 	<script src="{{ '/js/plugins-min.js' | relative_url }}"></script>
 	<script src="{{ '/js/made-min.js' | relative_url }}"></script>
 	<script src="{{ '/js/custom.js' | relative_url }}"></script>
+
 
 	{% if site.data.settings.advanced_settings.footer_js %}
 	<!-- Extra Footer JS Code -->

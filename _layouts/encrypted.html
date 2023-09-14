@@ -1,0 +1,134 @@
+---
+layout: default
+---
+
+{% if page.accent_color %}{% capture accent_color %}{{ page.accent_color }}{% endcapture %}{% endif %}
+
+<div class="page-project" style="--accent: {{ accent_color }}">
+
+  <!-- <button onclick="topFunction()" class="button--fill" id="topBtn" title="Go to top">Back to Top</button> -->
+  <a href="#top" class="button--fill" id="topBtn">Back to Top</a>
+
+  <div class="wrap">
+    <a href="{{ '/#portfolio' | relative_url }}" class="project__link button--text --left" style="color: {{ accent_color }}; --color-var: {{ accent_color }}">Return to Portfolio</a>
+  </div>
+
+  <header class="post__header header--single">
+
+    <div class="wrap">
+      <h1 class="post__title">{{ page.title }}</h1>
+      <h2 class="post__subtitle subtitle--light"><b>Summary:</b> {{ page.description }}</h2>
+      <h2 class="post__subtitle subtitle--light"><b>Role:</b> {{ page.role }}</h2>
+      <h2 class="post__subtitle subtitle--light"><b>Timeline:</b> {{ page.timeline }}</h2>
+      <div id="outline-links">
+        <h2 class="post__subtitle subtitle--light jump-link"><a href="#challenge">See more about the challenge</a></h2>
+        <h2 class="post__subtitle subtitle--light jump-link"><a href="#process">See more about my process</a></h2>
+        <h2 class="post__subtitle subtitle--light last-subtitle"><a href="#outcome">See more about the outcome</a></h2>
+      </div>
+      <img src="{{ '/images/projects/' | relative_url}}{{ page.featured_image }}" class="post__featured-image">
+    </div>
+  </header>
+
+  <section class="post-full">
+
+    <div class="wrap">
+
+      <article class="post__content {% if page.highlight_first %}highlight-first{% endif %}">
+        
+        <!-- ENCRYPTED CONTENT FORM -->
+        <div id="encrypted_content">
+          <form id="encrypt_form" action="" method="get">
+            <p>To maintain the privacy of sensitive projects, certain case studies are password-protected. Please request access to unlock the full details of this project.</p>
+            <div class="input-group">
+              <label for="password">Password</label>
+              <input type="password" name="password" id="encrypt_password" placeholder="What's the password?">
+              <!-- An element to toggle between password visibility -->
+              <label class="form-control">
+                <input type="checkbox" id="password-visibility" style="appearance: checkbox !important;" onclick="showPassword()">Show Password
+              </label>
+            </div>
+            <!-- <input class="password__field"
+                  id="encrypt_password"
+                  type="password"
+                  name="password"
+                  placeholder="Enter password"
+                  autofocus /> -->
+
+            <input type="submit" value="Unlock" class="button--fill"/>
+          </form>
+          
+          
+          <!-- SCRIPTS FOR CHECKING PASSWORD AND REVEALING CONTENT -->
+          <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/crypto-js.js"></script>
+          <script>
+            //console.log('encrypted script ran!');
+            window.addEventListener("DOMContentLoaded", (event) => {
+              //console.log('DOM loaded!');
+              const encryptedForm = document.getElementById('encrypt_form');
+              if (encryptedForm) {
+                encryptedForm.addEventListener('submit', checkPassword);
+                //console.log('event listener added to form!');
+              }
+            });
+
+            function showPassword() {
+              var x = document.getElementById("encrypt_password");
+              if (x.type === "password") {
+                x.type = "text";
+              } else {
+                x.type = "password";
+              }
+            }
+            function checkPassword() {
+              //console.log('you made it to the password checker!');
+              var passphrase = document.getElementById('encrypt_password').value,
+                  encryptedMsg = '{{ page.encrypted }}',
+                  encryptedHMAC = encryptedMsg.substring(0, 64),
+                  encryptedHTML = encryptedMsg.substring(64),
+                  decryptedHMAC = CryptoJS.HmacSHA256(encryptedHTML, CryptoJS.SHA256(passphrase).toString()).toString();
+
+              //console.log(passphrase);
+
+              if (decryptedHMAC !== encryptedHMAC) {
+                alert('The password you entered is incorrect. Please try again or contact Jessica for the current password.');
+                return;
+              }
+
+              var plainHTML = CryptoJS.AES.decrypt(encryptedHTML, passphrase).toString(CryptoJS.enc.Utf8);
+
+              console.log(plainHTML);
+
+              document.getElementById('encrypted_content').innerHTML = plainHTML;
+
+              showOutlineLinks(true);
+            };
+
+            function showOutlineLinks(booleanValue) {
+              console.log(booleanValue);
+              var x = document.getElementById("outline-links");
+              if (booleanValue) {
+                x.style.display = "block";
+              } else {
+                x.style.display = "none";
+              }
+            };
+          </script>
+
+        </div>
+
+      </article>
+      <a href="{{ '/#portfolio' | relative_url }}" class="project__link button--text --left" style="color: {{ accent_color }}; --color-var: {{ accent_color }}">Return to Portfolio</a>
+      
+    </div>
+
+  </section>
+
+
+
+</div>
+
+
+  
+
+  
+  
