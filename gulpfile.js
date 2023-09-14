@@ -90,7 +90,7 @@ function encrypt(password) {
 
 gulp.task('firewall:encrypt', () => {
   return gulp.src('_protected/*.*') // THE SOURCE OF THE UNENCRYPTED FILES
-    .pipe(encrypt('Innov8tiveDesign')) // THIS IS WHERE YOU CHANGE THE PASSWORD
+    .pipe(encrypt('Innov8Design')) // THIS IS WHERE YOU CHANGE THE PASSWORD
     .pipe(gulp.dest('_projects')); // WHERE THE ENCRYPTED FILES SHOULD GO
 });
 

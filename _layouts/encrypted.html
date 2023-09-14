@@ -34,11 +34,16 @@ layout: default
     <div class="wrap">
 
       <article class="post__content {% if page.highlight_first %}highlight-first{% endif %}">
+
+        <!-- NDA warning appears after decryption -->
+        <!-- <div class="nda-warning" id="nda_warning">
+          <p>The information presented in this case study has been thoughtfully modified to respect the non-disclosure agreements of my employers. Some design assets have been purposefully excluded to align with the confidentiality agreements I have upheld. The content below is centered on my process and any visuals have been previously made publicly available by the company.</p>
+        </div> -->
         
         <!-- ENCRYPTED CONTENT FORM -->
         <div id="encrypted_content">
           <form id="encrypt_form" action="" method="get">
-            <p>To maintain the privacy of sensitive projects, certain case studies are password-protected. Please request access to unlock the full details of this project.</p>
+            <p>To maintain the privacy of sensitive projects, certain case studies are password-protected. Please request access to unlock details of this project.</p>
             <div class="input-group">
               <label for="password">Password</label>
               <input type="password" name="password" id="encrypt_password" placeholder="What's the password?">
@@ -100,16 +105,19 @@ layout: default
 
               document.getElementById('encrypted_content').innerHTML = plainHTML;
 
-              showOutlineLinks(true);
+              showHiddenDivs(true);
             };
 
-            function showOutlineLinks(booleanValue) {
+            function showHiddenDivs(booleanValue) {
               console.log(booleanValue);
-              var x = document.getElementById("outline-links");
+              var outlineLinks = document.getElementById("outline-links");
+              // var ndaWarning = document.getElementById("nda_warning");
               if (booleanValue) {
-                x.style.display = "block";
+                outlineLinks.style.display = "block";
+                // ndaWarning.style.display = "block";
               } else {
-                x.style.display = "none";
+                outlineLinks.style.display = "none";
+                // ndaWarning.style.display = "none";
               }
             };
           </script>
