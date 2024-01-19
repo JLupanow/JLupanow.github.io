@@ -55,7 +55,7 @@ I began **conducting interviews with key stakeholders across departments and rev
 
 
 <div class="image-wrap">
-<img src="/images/projects/content-platform/table.png">
+<img src="/images/projects/content-platform/table.PNG">
 </div>
 
 Based on this initial research, I learned that technicians were writing custom CSS and HTML files to customize the interface for each client, which was not only taking up a ton of their time, but it was also a huge security vulnerability. Additionally, participants were having a hard time finding and using the engagement features unless the buttons were pointed out to them at the start of the show, which resulted in less engagement data available for our event organizers to take back to their teams. I also found that the participant and presenter experiences were so different that users couldn't tell it was the same application. This resulted in a huge learning curve for new presenters, so technicians had to spend a lot of extra time training presenters before the event.
@@ -141,7 +141,7 @@ The redesigned interface succeeds in providing a familiar experience for partici
 
 
 <div class="image-wrap">
-<img src="/images/projects/content-platform/on-laptop.png">
+<img src="/images/projects/content-platform/on-laptop.PNG">
 </div>
 <div class="caption"><i>The content engagement platform as of 2023</i></div>
 
