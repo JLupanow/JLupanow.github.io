@@ -6,7 +6,7 @@ timeline: September through December 2019
 date: 2019-12-24 00:00:00
 description: There is an ever-growing expectation for all businesses to support online shopping, but this can be difficult for small business owners who may not have the time or money to bring their operations online. In this project, I looked at ways of bringing a small business into the modern age of e-commerce. I first <a href="#users">got to know the current customers and their needs </a> before <a href="#cases">defining the use cases</a>. Then I was able to <a href="#IA">lay out the information by way of a sitemap and wireframes</a>. Finally, I <a href="#visual">applied visual design principles to finish my prototype</a> and <a href="#usability">tested the usability</a> of the new design.
 featured_image: petal-pushers-feat.png
-accent_color: '#4C60E6'
+accent_color: '#4C67AD'
 gallery_images:
   - petal-pushers-feat.png
 ---

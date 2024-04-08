@@ -6,7 +6,7 @@ timeline: January through May 2020
 date: 2020-04-24 00:00:00
 description: Autonomous flying vehicles are estimated to hit the commercial market in 2025, but what will using these vehicles look like? In this project, I explored what users would want out of an app for booking one of these vehicles. After <a href="#customers">getting to know the customer</a> and a <a href="#competition">performing a competitive analysis</a>, I shifted my value proposition from Uber for autonomous flying vehicles to an app for booking an autonomous flying shuttle as part of a multi-modal route. Then I validated this value proposition and honed in on a subscription-based pricing model over the course of both <a href="#research1">qualitative</a> and <a href="#research2">quantitative</a> user research experiments using a <a href="#prototype">high-fidelity prototype</a>.
 featured_image: vola-feat.png
-accent_color: '#2f3ced'
+accent_color: '#4C67AD'
 gallery_images:
   - vola-feat.png
 ---

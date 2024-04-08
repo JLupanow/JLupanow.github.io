@@ -101,7 +101,7 @@ layout: default
 
               var plainHTML = CryptoJS.AES.decrypt(encryptedHTML, passphrase).toString(CryptoJS.enc.Utf8);
 
-              console.log(plainHTML);
+              // console.log(plainHTML);
 
               document.getElementById('encrypted_content').innerHTML = plainHTML;
 

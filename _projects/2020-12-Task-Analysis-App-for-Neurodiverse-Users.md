@@ -6,7 +6,7 @@ timeline: October through December 2020
 date: 2020-11-24 00:00:00
 description: Neurodiverse users have to juggle multiple childish apps to help with scheduling and task analysis. I worked with <a href="https://www.behaveware.org/">BehaveWare LLC</a> to explore how their app, Promptly, could simplify daily life for these users. I got the lay of the land by <a href="#competitors">analyzing a variety of competing apps</a>. Then I worked with the team to <a href="#cases">define the main use cases and necessary screens</a>. Finally I <a href="#mockups">designed high-fidelity mockups of each screen</a>. The client implemented these designs in their app, and <a href="#outcome">the app is now available</a> for download in the App Store and Google Play Store.
 featured_image: promptly.png
-accent_color: '#4C60E6'
+accent_color: '#4C67AD'
 gallery_images:
   - promptly.png
 

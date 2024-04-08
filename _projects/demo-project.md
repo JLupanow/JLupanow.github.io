@@ -6,7 +6,7 @@ timeline: October through December 2020
 date: 2019-07-24 00:00:00
 description: Here is a quick summary covering who is the company and what do they do, what was the ask/what was I trying to solve, what was the timeline/constraints, whether it was a solo or team effort, what methods I used, and a short description of the end product.
 featured_image: demo.jpg
-accent_color: '#4C60E6'
+accent_color: '#4C67AD'
 gallery_images:
   - demo.jpg
   - demo.jpg

@@ -67,7 +67,7 @@ color_settings:
   text_dark_color: '#202224'
   text_medium_color: '#6C7A89'
   text_light_color: '#AEB3BB'
-  accent_color: '#2f3ced'
+  accent_color: '#4C67AD'  #2f3ced
   border_color: '#ECEDEF'
   error_color: '#871613'
 
